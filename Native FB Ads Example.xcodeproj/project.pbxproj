@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		541D6DA31E470170007150A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541D6DA21E470170007150A7 /* AppDelegate.swift */; };
 		541D6DA51E470170007150A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541D6DA41E470170007150A7 /* ViewController.swift */; };
-		541D6DA81E470170007150A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541D6DA61E470170007150A7 /* Main.storyboard */; };
 		541D6DAA1E470170007150A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 541D6DA91E470170007150A7 /* Assets.xcassets */; };
 		541D6DAD1E470170007150A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541D6DAB1E470170007150A7 /* LaunchScreen.storyboard */; };
 		541D6DB81E470170007150A7 /* Native_FB_Ads_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541D6DB71E470170007150A7 /* Native_FB_Ads_ExampleTests.swift */; };
 		541D6DC31E470170007150A7 /* Native_FB_Ads_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541D6DC21E470170007150A7 /* Native_FB_Ads_ExampleUITests.swift */; };
+		541D6DD11E470232007150A7 /* AdTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541D6DD01E470232007150A7 /* AdTableCell.swift */; };
+		541D6DD31E470279007150A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541D6DD21E470279007150A7 /* Main.storyboard */; };
+		541D6DD51E4706E8007150A7 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541D6DD41E4706E8007150A7 /* ImageView.swift */; };
+		71A6FC0C148BBE392CABB3D3 /* Pods_Native_FB_Ads_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B13A36EBF3153A0875E018 /* Pods_Native_FB_Ads_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C8A519B63C7C43F7163CCD6 /* Pods-Native FB Ads Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Native FB Ads Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Native FB Ads Example/Pods-Native FB Ads Example.debug.xcconfig"; sourceTree = "<group>"; };
 		541D6D9F1E470170007150A7 /* Native FB Ads Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Native FB Ads Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		541D6DA21E470170007150A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		541D6DA41E470170007150A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		541D6DA71E470170007150A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		541D6DA91E470170007150A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		541D6DAC1E470170007150A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		541D6DAE1E470170007150A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		541D6DBE1E470170007150A7 /* Native FB Ads ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Native FB Ads ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		541D6DC21E470170007150A7 /* Native_FB_Ads_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Native_FB_Ads_ExampleUITests.swift; sourceTree = "<group>"; };
 		541D6DC41E470170007150A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		541D6DD01E470232007150A7 /* AdTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdTableCell.swift; sourceTree = "<group>"; };
+		541D6DD21E470279007150A7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		541D6DD41E4706E8007150A7 /* ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		84B13A36EBF3153A0875E018 /* Pods_Native_FB_Ads_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Native_FB_Ads_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5C5B9ABE2F29D7EF7A576D /* Pods-Native FB Ads Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Native FB Ads Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Native FB Ads Example/Pods-Native FB Ads Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A6FC0C148BBE392CABB3D3 /* Pods_Native_FB_Ads_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A991EC46412C6DB2EAADE17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84B13A36EBF3153A0875E018 /* Pods_Native_FB_Ads_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		541D6D961E470170007150A7 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +98,8 @@
 				541D6DB61E470170007150A7 /* Native FB Ads ExampleTests */,
 				541D6DC11E470170007150A7 /* Native FB Ads ExampleUITests */,
 				541D6DA01E470170007150A7 /* Products */,
+				F8D624DA5A06173DABC8512B /* Pods */,
+				3A991EC46412C6DB2EAADE17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +118,9 @@
 			children = (
 				541D6DA21E470170007150A7 /* AppDelegate.swift */,
 				541D6DA41E470170007150A7 /* ViewController.swift */,
-				541D6DA61E470170007150A7 /* Main.storyboard */,
+				541D6DD01E470232007150A7 /* AdTableCell.swift */,
+				541D6DD21E470279007150A7 /* Main.storyboard */,
+				541D6DD41E4706E8007150A7 /* ImageView.swift */,
 				541D6DA91E470170007150A7 /* Assets.xcassets */,
 				541D6DAB1E470170007150A7 /* LaunchScreen.storyboard */,
 				541D6DAE1E470170007150A7 /* Info.plist */,
@@ -125,6 +146,15 @@
 			path = "Native FB Ads ExampleUITests";
 			sourceTree = "<group>";
 		};
+		F8D624DA5A06173DABC8512B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C8A519B63C7C43F7163CCD6 /* Pods-Native FB Ads Example.debug.xcconfig */,
+				CF5C5B9ABE2F29D7EF7A576D /* Pods-Native FB Ads Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 541D6DC71E470170007150A7 /* Build configuration list for PBXNativeTarget "Native FB Ads Example" */;
 			buildPhases = (
+				782883343CFA0E0447D5AFF0 /* [CP] Check Pods Manifest.lock */,
 				541D6D9B1E470170007150A7 /* Sources */,
 				541D6D9C1E470170007150A7 /* Frameworks */,
 				541D6D9D1E470170007150A7 /* Resources */,
+				623D3B36E9E77F24193F045F /* [CP] Embed Pods Frameworks */,
+				0DF930ACA94FCDBE6C33550F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +268,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				541D6DD31E470279007150A7 /* Main.storyboard in Resources */,
 				541D6DAD1E470170007150A7 /* LaunchScreen.storyboard in Resources */,
 				541D6DAA1E470170007150A7 /* Assets.xcassets in Resources */,
-				541D6DA81E470170007150A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +290,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DF930ACA94FCDBE6C33550F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Native FB Ads Example/Pods-Native FB Ads Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		623D3B36E9E77F24193F045F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Native FB Ads Example/Pods-Native FB Ads Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		782883343CFA0E0447D5AFF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		541D6D9B1E470170007150A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				541D6DD51E4706E8007150A7 /* ImageView.swift in Sources */,
 				541D6DA51E470170007150A7 /* ViewController.swift in Sources */,
 				541D6DA31E470170007150A7 /* AppDelegate.swift in Sources */,
+				541D6DD11E470232007150A7 /* AdTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +382,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		541D6DA61E470170007150A7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				541D6DA71E470170007150A7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		541D6DAB1E470170007150A7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -413,6 +488,7 @@
 		};
 		541D6DC81E470170007150A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C8A519B63C7C43F7163CCD6 /* Pods-Native FB Ads Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LCB3NE4A8E;
@@ -426,6 +502,7 @@
 		};
 		541D6DC91E470170007150A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF5C5B9ABE2F29D7EF7A576D /* Pods-Native FB Ads Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LCB3NE4A8E;
@@ -514,6 +591,7 @@
 				541D6DC91E470170007150A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		541D6DCA1E470170007150A7 /* Build configuration list for PBXNativeTarget "Native FB Ads ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +600,7 @@
 				541D6DCC1E470170007150A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		541D6DCD1E470170007150A7 /* Build configuration list for PBXNativeTarget "Native FB Ads ExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +609,7 @@
 				541D6DCF1E470170007150A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

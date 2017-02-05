@@ -1,0 +1,6 @@
+framework module Pods_Native_FB_Ads_Example {
+  umbrella header "Pods-Native FB Ads Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

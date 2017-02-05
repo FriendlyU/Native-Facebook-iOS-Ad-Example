@@ -1,0 +1,10 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/FBAudienceNetwork"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FBAudienceNetwork"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited)  -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/FBAudienceNetwork"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"xml2" -framework "AVFoundation" -framework "AudioToolbox" -framework "CoreGraphics" -framework "CoreImage" -framework "CoreMedia" -framework "FBAudienceNetwork" -framework "Foundation" -framework "Security" -framework "StoreKit" -framework "UIKit" -weak_framework "AdSupport" -weak_framework "CoreMotion" -weak_framework "SafariServices" -weak_framework "WebKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods
